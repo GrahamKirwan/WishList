@@ -19,10 +19,11 @@
     background-color: var(--color-white-side);
     flex: 0 0 20%;
     border-right: 1px solid var(--color-grey-light-2);
+    padding: 2rem 0;
 
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .content {

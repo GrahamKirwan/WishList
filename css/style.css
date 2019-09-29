@@ -63,7 +63,7 @@ body {
 .logo {
   height: 8rem;
   margin-left: 1rem;
-  margin-top: 1rem; }
+  margin-top: -1rem; }
 
 .side-nav {
   font-size: 1.4rem;
@@ -108,6 +108,12 @@ body {
     margin-right: 2rem;
     fill: currentColor; }
 
+.logout {
+  padding-top: 10rem; }
+  .logout span {
+    font-size: 1.4rem;
+    font-weight: 700; }
+
 .container {
   max-width: 85%;
   margin: 0 auto;
@@ -119,7 +125,11 @@ body {
 .sidebar {
   background-color: var(--color-white-side);
   flex: 0 0 20%;
-  border-right: 1px solid var(--color-grey-light-2); }
+  border-right: 1px solid var(--color-grey-light-2);
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
 
 .content {
   display: flex;
