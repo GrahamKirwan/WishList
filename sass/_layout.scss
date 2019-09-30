@@ -4,7 +4,7 @@
     background-color: var(--color-grey-light-1);
     box-shadow: var(--shadow-dark);
 
-    min-height: 80rem;
+    height: 90vh;
 
     display: flex;
 
@@ -35,12 +35,17 @@
 
 .header {
     background-color: var(--color-white-header);    
-    flex: 0 0 10%;
+    flex: 0 0 8%;
     border-bottom: 1px solid var(--color-grey-light-2);
+
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .main {
     background-color: var(--color-white-main);  
-    flex: 1;
+    padding: .5rem 2.5rem 0 2.5rem;
+    height: 100%;
+    overflow: auto;
 }

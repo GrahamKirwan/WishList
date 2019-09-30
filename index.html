@@ -34,11 +34,11 @@
                         </a>
                     </li>
                     <li class="side-nav__item">
-                        <a href="#" class="side-nav__link">
+                        <a href="weather.html" class="side-nav__link">
                             <svg class="side-nav__icon">
                                 <use xlink:href="img/sprite.svg#icon-calendar"></use>
                             </svg>
-                            <span>Calender</span>
+                            <span>Weather</span>
                         </a>
                     </li>
                     <li class="side-nav__item">
@@ -100,15 +100,427 @@
                     </a>
                 </div>
             </nav>
+
             <div class="content">
                 <header class="header">
-                    HEADER 
+                    <form action="#" class="search">
+                            <button class="search__button">
+                                    <svg class="search__icon">
+                                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                                    </svg>
+                                </button>
+                        <input type="text" class="search__input" placeholder="Search Chat">
+                        
+                    </form>
+
+                    <nav class="user-nav">
+                            <div class="user-nav__icon-box">
+                                <svg class="user-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-bell"></use>
+                                </svg>
+                                <span class="user-nav__notification">7</span>
+                            </div>
+                            <div class="user-nav__icon-box">
+                                <svg class="user-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-chat"></use>
+                                </svg>
+                                <span class="user-nav__notification">13</span>
+                            </div>
+                            <div class="user-nav__user">
+                                <img src="img/user-3.jpg" alt="user photo" class="user-nav__user-photo">
+                                <span class="user-nav__user-name">Graham Kirwan</span>
+                            </div>
+                    </nav>
                 </header>
+
                 <main class="main">
-                    MAIN
+                    <h1 class="heading-primary">Products</h1>
+
+                    <div class="products">
+                        <div class="products__card">
+                            <img src="img/product1.png" alt="iphone 11" class="products__image">
+                            <h3 class="products__heading">
+                                Brushed Steel iPhone 11
+                                <span>$1000</span>
+                            </h3>
+                            <p>A Product of Apple.</p>
+                            <div class="products__star-rating">
+                                <svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg<svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="products__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                                </svg>
+                                <span>(5.0)</span>
+                            </div>
+                            <div class="products__add">
+                                <a href="#"><p>Add To Cart</p></a>
+                            </div>                          
+                        </div>
+                        <div class="products__card">
+                                <img src="img/product2.jpg" alt="apple watch" class="products__image">
+                                <h3 class="products__heading">
+                                    Apple Watch
+                                    <span>$180</span>
+                                </h3>
+                                <p>A Product of Apple.</p>
+                                <div class="products__star-rating">
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg<svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <span>(5.0)</span>
+                                </div>
+                                <div class="products__add">
+                                    <a href="#"><p>Add To Cart</p></a>
+                                </div> 
+                        </div>
+                        <div class="products__card">
+                                <img src="img/products.jpg" alt="iphone 11" class="products__image">
+                                <h3 class="products__heading">
+                                    Maverick Drone
+                                    <span>$1200</span>
+                                </h3>
+                                <p>A Product of Maverick.</p>
+                                <div class="products__star-rating">
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg<svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <span>(4.0)</span>
+                                </div>
+                                <div class="products__add">
+                                    <a href="#"><p>Add To Cart</p></a>
+                                </div> 
+                        </div>
+                        <div class="products__card">
+                                <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                <h3 class="products__heading">
+                                    Rose gold iphone 11
+                                    <span>$900</span>
+                                </h3>
+                                <p>A Product of Apple.</p>
+                                <div class="products__star-rating">
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg<svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <svg class="products__icon">
+                                        <use xlink:href="img/sprite.svg#icon-star"></use>
+                                    </svg>
+                                    <span>(5.0)</span>
+                                </div>
+                                <div class="products__add">
+                                    <a href="#"><p>Add To Cart</p></a>
+                                </div> 
+                        </div>
+                    </div>
+
+                    <div class="products">
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                    </div>
+                    
+                    <div class="products">
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                            <div class="products__card">
+                                    <img src="img/product1.jpg" alt="iphone 11" class="products__image">
+                                    <h3 class="products__heading">
+                                        Rose gold iphone 11
+                                        <span>$900</span>
+                                    </h3>
+                                    <p>A Product of Apple.</p>
+                                    <div class="products__star-rating">
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg<svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <svg class="products__icon">
+                                            <use xlink:href="img/sprite.svg#icon-star"></use>
+                                        </svg>
+                                        <span>(5.0)</span>
+                                    </div>
+                                    <div class="products__add">
+                                        <a href="#"><p>Add To Cart</p></a>
+                                    </div> 
+                            </div>
+                    </div>
+
                 </main>
+
             </div>
             
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
